@@ -1,5 +1,5 @@
-install.packages("quantmod")  # Lấy dữ liệu giá cổ phiếu từ Yahoo
-install.packages("ggplot2")   # Vẽ đồ thị đẹp (có thể bỏ, nếu bạn muốn dùng base R)
+install.packages("quantmod")  # Collecter les données de Yahoo.finance
+install.packages("ggplot2")   
 
 # ==========================
 # 1) Packages & Données
@@ -689,4 +689,5 @@ print(p2)
 print(p3)
 print(p4)
 print(p5)
+
 print(p6)
