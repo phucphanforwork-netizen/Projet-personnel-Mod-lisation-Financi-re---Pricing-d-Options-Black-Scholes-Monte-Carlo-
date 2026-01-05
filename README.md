@@ -76,6 +76,7 @@ Période étudiée : **1 an**
 |-----------|--------|
 | Prix estimé MC | **10,4446 €** |
 | IC 95 % | **[10,3350 ; 10,5543]** |
+
 ➡️ Convergence asymptotique vers Black-Scholes  
 ✔ Loi des grands nombres  
 ✔ Théorème central limite  
@@ -91,6 +92,7 @@ Période étudiée : **1 an**
 | Vega  | Sensibilité à la volatilité | **41,3317** |
 | Theta | Décroissance temporelle | **−8,3076** |
 | Rho   | Sensibilité au taux | **30,8510** |
+
 **Points clés :**
 ✔ forte dépendance à la volatilité  
 ✔ convexité significative  
@@ -110,6 +112,7 @@ Principe :
 |---------|-----------|
 | Short Call | **−0,0636 €** |
 | Long Call  | **+0,0636 €** |
+
 📌 Erreur résiduelle = **Gamma + discrétisation**
 
 ### 🔹 8.2 Delta-Gamma Hedging
@@ -119,6 +122,7 @@ Ajout d’une seconde option (strike = 1,2K)
 |---------|-----------|
 | Short Call | **+0,0205 €** |
 | Long Call  | **−0,0205 €** |
+
 ✔ Gamma presque nul  
 ✔ Réduction significative de l’erreur de réplication  
 
