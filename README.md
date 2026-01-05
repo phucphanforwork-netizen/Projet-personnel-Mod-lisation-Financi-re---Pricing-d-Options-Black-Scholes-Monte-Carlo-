@@ -57,6 +57,7 @@ Période étudiée : **1 an**
 ## 6️⃣ Valorisation d’option
 
 ### 🔹 6.1 Résultats Black-Scholes
+
 | Résultat | Valeur |
 |---------|--------|
 | Prix du Call | **10,48 €** |
@@ -70,6 +71,7 @@ Période étudiée : **1 an**
 1. Visualiser la dynamique stochastique du sous-jacent  
 2. Estimer la valeur théorique de l’option  
 **50 000 simulations sous mesure risque-neutre :**
+
 | Indicateur | Valeur |
 |-----------|--------|
 | Prix estimé MC | **10,4446 €** |
@@ -81,6 +83,7 @@ Période étudiée : **1 an**
 ---
 
 ## 7️⃣ Greeks
+
 | Greek | Interprétation | Valeur |
 |------|----------------|--------|
 | Delta | Sensibilité au spot | **0,6080** |
@@ -101,7 +104,8 @@ Période étudiée : **1 an**
 Principe :
 - Short Call → achat de Δ actions  
 - Auto-financement  
-- Ajustement quotidien  
+- Ajustement quotidien 
+
 | Position | PnL simulé |
 |---------|-----------|
 | Short Call | **−0,0636 €** |
@@ -110,6 +114,7 @@ Principe :
 
 ### 🔹 8.2 Delta-Gamma Hedging
 Ajout d’une seconde option (strike = 1,2K)
+
 | Position | PnL simulé |
 |---------|-----------|
 | Short Call | **+0,0205 €** |
